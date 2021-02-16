@@ -2,6 +2,8 @@ body{
     background-color: #0e0e0e;
 }
 
+/*homepage or Introduction page*/
+
 .header{
     position: absolute;
     color: #fff;
@@ -30,7 +32,11 @@ body{
     font-size: 18pt;
 }
 
-.featureDescription{
+/*description page, the second part of the website*/
+
+/*first part of research*/
+
+.featureDescription1{
     position: absolute;
     margin-left: 1200px;
     margin-top: 1175px;
@@ -38,7 +44,7 @@ body{
     font-size: 24pt;
 }
 
-.desc-imgs1{
+.desc-img1{
     position: absolute;
     width: 900px;
     height: 519px;
@@ -47,7 +53,7 @@ body{
     margin-left: 238px;
 }
 
-.descrip-word{
+.descrip-word1{
     position: absolute;
     width: 630px;
     margin-left: 1200px;
@@ -57,7 +63,41 @@ body{
     font-size: 18pt;
 }
 
+/*second part of research content*/
 
+.featureDescription2{
+    position: absolute;
+    margin-left: 238px;
+    margin-top: 1852px;
+    color: #fff;
+    font-size: 24pt;
+}
 
+.desc-img2{
+    position: absolute;
+    width: 900px;
+    height: 519px;
+    background-color: #c4c4c4;
+    margin-top: 1852px;
+    margin-left: 700px;
+}
+
+.descrip-word2{
+    position: absolute;
+    width: 630px;
+    margin-left: 238px;
+    margin-top: 1927px;
+    color: #d0d0d0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+}
+
+/*motion graphic video goes to here*/
+
+.motionvideo a{
+    position: absolute;
+    margin-left: auto;
+    margin-top: 3000px;
+}
 
 
