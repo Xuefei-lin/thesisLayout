@@ -2,6 +2,59 @@ body{
     background-color: #0e0e0e;
 }
 
+/*navbar*/
+/*intro*/
+#navbar{
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+    margin-top: 250px;
+}
+
+.nav-intro a{
+    color: #838383;
+    text-decoration: none;
+    font-size: 24pt;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.nav-intro a:hover{
+    color: #ffb802;
+    text-decoration: underline;
+}
+
+/*description*/
+
+.nav-desc a{
+    color: #838383;
+    text-decoration: none;
+    font-size: 24pt;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+}
+
+.nav-desc a:hover{
+    color: #ffb802;
+    text-decoration: underline;
+}
+
+/*demostration*/
+
+.nav-demo a{
+    color: #838383;
+    text-decoration: none;
+    font-size: 24pt;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+}
+
+.nav-demo a:hover{
+    color: #ffb802;
+    text-decoration: underline;
+}
+
+
 /*homepage or Introduction page*/
 
 .header{
@@ -92,12 +145,22 @@ body{
     font-size: 18pt;
 }
 
-/*motion graphic video goes to here*/
+/*motion graphic video goes to here 677*/
 
 .motionvideo a{
     position: absolute;
-    margin-left: auto;
-    margin-top: 3000px;
+    margin-left: 480px;
+    margin-top: 2600px;
+    padding-bottom: 100px;
+}
+
+.motion-explain{
+    position: absolute;
+    width: 800px;
+    margin-left: 600px;
+    margin-top: 2529px;
+    color: #fff;
+    font-size: 18pt;
 }
 
 
