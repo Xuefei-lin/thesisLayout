@@ -4,19 +4,26 @@ body{
 
 /*navbar*/
 /*intro*/
-#navbar{
+.navbar{
     position: fixed;
     z-index: 1;
-    padding: 20px;
-    margin-top: 250px;
+    margin-top: 20%;
+    margin-left: 2%;
 }
 
 .nav-intro a{
+    position: absolute;
     color: #838383;
     text-decoration: none;
     font-size: 24pt;
     font-family: 'Lato', sans-serif;
-    
+    /*rotate the word*/
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    /*position*/
+    margin-top:-150px; 
 }
 
 .nav-intro a:hover{
@@ -27,11 +34,18 @@ body{
 /*description*/
 
 .nav-desc a{
+    position: absolute;
     color: #838383;
     text-decoration: none;
     font-size: 24pt;
     font-family: 'Lato', sans-serif;
-    padding: 30px;
+    /*rotate the word*/
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    /*position*/
+    margin-top: 60px;
 }
 
 .nav-desc a:hover{
@@ -42,11 +56,19 @@ body{
 /*demostration*/
 
 .nav-demo a{
+    position: absolute;
     color: #838383;
     text-decoration: none;
     font-size: 24pt;
     font-family: 'Lato', sans-serif;
-    padding: 30px;
+    /*rotate the word*/
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    /*position*/
+    margin-top:300px; 
+    margin-left: -10px;
 }
 
 .nav-demo a:hover{
